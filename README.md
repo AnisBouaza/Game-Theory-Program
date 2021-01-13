@@ -1,2 +1,2 @@
 # Game-Theory-Program
-A program that showvcases some Gametheory concepts
+A program that showcases some Gametheory concepts

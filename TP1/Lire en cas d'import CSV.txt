@@ -1,0 +1,2 @@
+Pour imporet un CSV il faut que le header est le format suivant : p1,p2,pX,Gain p1, Gain p2, Gain pX
+et le nom du CSV doit etre ' params.csv '

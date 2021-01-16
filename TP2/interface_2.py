@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow, QPushButton
 from PyQt5.uic import loadUi
 
 num_joueurs = 0
-file_name = 'nacl.csv'
+file_name = 'data_3.csv'
 filedata = np.genfromtxt(file_name, delimiter = ',', dtype = 'int32')
 all_strats = ()
 nombre_strat = ()
@@ -210,22 +210,14 @@ class Ui_MainWindow(object):
                 #Résolution des équations
                 A = np.array([[A1, B1], [A2, B2]])
                 B = np.array([C1,C2])
-                '''try:
+                try:
                     Resultat = np.linalg.solve(A,B)
                 except np.LinAlgError:
                     erreur = True
 
                 if(Resultat[0]<0 or Resultat[1]<0 or Resultat[0]+Resultat[1]>1):
-                    erreur = True'''
-                try:
-                    Resultat = np.linalg.solve(A, B)
-                except:
-                    erreur = True 
-        
-                if not erreur:
-                    if Resultat[0] < 0 or Resultat[1] < 0 or Resultat[0]+Resultat[1] > 1:
-                        erreur = True
-
+                    erreur = True
+                
                 if(erreur == False):
                     temp=[]
                     temp.append(Resultat[0])
@@ -249,13 +241,12 @@ class Ui_MainWindow(object):
                 B = np.array([C1,C2])
 
                 try:
-                    Resultat = np.linalg.solve(A, B)
-                except:
-                    erreur = True 
-        
-                if not erreur:
-                    if Resultat[0] < 0 or Resultat[1] < 0 or Resultat[0]+Resultat[1] > 1:
-                        erreur = True
+                    Resultat = np.linalg.solve(A,B)
+                except np.LinAlgError:
+                    erreur = True
+
+                if(Resultat[0]<0 or Resultat[1]<0 or Resultat[0]+Resultat[1]>1):
+                    erreur = True
 
                 if(erreur == False):
                     temp=[]

@@ -9,7 +9,7 @@ A PyQt UI to visualise the implementation of some Game Theory concepts.
 # the UI
 
 **I** -The first UI is designed for **pure strategies**
-<img src = "Screenshots\Screenshot_2.png" title = ui1 >
+<img src = "Screenshots\Screenshot_1.png" title = ui1 >
 
 - **Add Player**  : This button allows to add a player with the given name in the **Player Name** field and a number of strategies in the **Strategies** field.
 
@@ -23,7 +23,7 @@ A PyQt UI to visualise the implementation of some Game Theory concepts.
 
 
 **II** -The second UI is designed for **mixed strategies**
-<img src = "Screenshots\Screenshot_1.png" title = ui2 >
+<img src = "Screenshots\Screenshot_2.png" title = ui2 >
 
 - **Export CSV** : After filling the number of strategies relative to each player in the fields “Joueur 0” and “Joueur 1”, you can export a CSV editable file to add the gains.
 

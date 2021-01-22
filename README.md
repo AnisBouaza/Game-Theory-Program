@@ -24,3 +24,10 @@ A PyQt UI to visualise the implementation of some Game Theory concepts.
 
 **II** -The second UI is designed for **mixed strategies**
 <img src = "Screenshots\Screenshot_1.png" title = ui2 >
+
+- **Export CSV** : After filling the number of strategies relative to each player in the fields “Joueur 0” and “Joueur 1”, you can export a CSV editable file to add the gains.
+
+- **Import CSV** : Import a CSV file.
+
+- **Game Infos** : After finishing the configuration this button allows you to show the results of the implemented algorithms like nash equilibrium, if the null sum game box is checked it shows the informations relative to a null sum game.
+

@@ -1,5 +1,5 @@
 # Game-Theory-Program
-A PyQt UI to visualise the implementation of some Game Theory concepts.
+A PyQt UI to visualise the implementation of some Game Theory 
 
 
 # Build
